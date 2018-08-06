@@ -1,0 +1,462 @@
+.logo1 {
+  background : url("logo_amwaj.png")no-repeat top center;
+  width: 200px;
+  height: 300px;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+margin-left: 40%;
+}
+.logoStudent{
+    background : url("student_logo.png")no-repeat;
+}
+.logo2 {
+  background : url("amwajm.png")no-repeat top center;
+  width: 200px;
+  height: 314px;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+margin-left: 40%;
+}
+body{
+  background-color: #8EBCDA;
+}
+.logo3 {
+  background : url("amwajsmallesize.png")no-repeat top;
+  align-self: left;
+  width: 110px;
+  height: 172px;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+
+}
+.detailsContainer{
+  width: 40%;
+  border: solid #E8F8F5 2px;
+  padding: 2% 0% 2% 7%;
+  border-radius: 13px;
+  margin-left: 26%;
+  margin-top: 7%;
+
+}
+
+.sTableContainer{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid #E8F8F5 2px;
+  padding: 4%;
+  border-radius: 20px;
+}
+
+.insideContainer{
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: solid #E8F8F5 2px;
+  padding: 2%;
+  border-radius: 13px;
+
+}
+a.add-big {
+    background: url(http://cssdeck.com/uploads/media/items/7/5Fm069k.png)  15px -23px no-repeat #f3f3f3;
+    font-size: 16px;
+    padding: 10px 15px 10px 35px;
+}
+a.button:hover {
+    color: #333;
+    border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.mainHead{
+ margin-left: 27%;
+font-family: "Brush Script MT", cursive;
+font-size:400%;
+}
+
+.subLogo:hover {
+   opacity: 0.7;
+   cursor:pointer;
+}
+.regform, .hihi {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+.regform {
+    /* positions the label text beside the input */
+    text-align: right;
+}
+
+.regform + .hihi {
+
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+.hihi{
+  float: right;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+form {
+       width: 35%;
+       margin: 0 auto;
+       align-items:center;
+   }
+.hihi + .hihi   {
+       float: left;
+   }
+
+.regBtn{
+  background: #4fb3f5;
+   background-image: -webkit-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -moz-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -ms-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -o-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: linear-gradient(to bottom, #4fb3f5, #afddfa);
+   -webkit-border-radius: 13;
+   -moz-border-radius: 13;
+   border-radius: 13px;
+   -webkit-box-shadow: 0px 1px 3px #666666;
+   -moz-box-shadow: 0px 1px 3px #666666;
+   box-shadow: 0px 1px 3px #666666;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 22px;
+   padding: 5px 15px 5px 15px;
+   border: solid #1f628d 2px;
+   text-decoration: none;
+   margin-left: 25%;
+}
+.regBtn:hover{
+  background: #afddfa;
+    background-image: -webkit-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -moz-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -ms-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -o-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: linear-gradient(to bottom, #afddfa, #4fb3f5);
+    text-decoration: none;
+}
+.regsel{
+  margin-right: 42%;
+  float: right;
+}
+.delBtn{
+  background: #ed1342;
+   background-image: -webkit-linear-gradient(top, #ed1342, #870d3e);
+   background-image: -moz-linear-gradient(top, #ed1342, #870d3e);
+   background-image: -ms-linear-gradient(top, #ed1342, #870d3e);
+   background-image: -o-linear-gradient(top, #ed1342, #870d3e);
+   background-image: linear-gradient(to bottom, #ed1342, #870d3e);
+   -webkit-border-radius: 13;
+   -moz-border-radius: 13;
+   border-radius: 13px;
+   -webkit-box-shadow: 0px 1px 3px #666666;
+   -moz-box-shadow: 0px 1px 3px #666666;
+   box-shadow: 0px 1px 3px #666666;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 22px;
+   padding: 5px 15px 5px 15px;
+   border: solid #800737 2px;
+   text-decoration: none;
+   float: right;
+   margin-right: 40%;
+}
+.delBtn:hover{
+  background: #870d3e;
+   background-image: -webkit-linear-gradient(top, #870d3e, #ed1342);
+   background-image: -moz-linear-gradient(top, #870d3e, #ed1342);
+   background-image: -ms-linear-gradient(top, #870d3e, #ed1342);
+   background-image: -o-linear-gradient(top, #870d3e, #ed1342);
+   background-image: linear-gradient(to bottom, #870d3e, #ed1342);
+   text-decoration: none;
+}
+.uptBtn{
+  background: #4fb3f5;
+   background-image: -webkit-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -moz-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -ms-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: -o-linear-gradient(top, #4fb3f5, #afddfa);
+   background-image: linear-gradient(to bottom, #4fb3f5, #afddfa);
+   -webkit-border-radius: 13;
+   -moz-border-radius: 13;
+   border-radius: 13px;
+   -webkit-box-shadow: 0px 1px 3px #666666;
+   -moz-box-shadow: 0px 1px 3px #666666;
+   box-shadow: 0px 1px 3px #666666;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 22px;
+   padding: 5px 15px 5px 15px;
+   border: solid #1f628d 2px;
+   text-decoration: none;
+   margin-left: 10%;
+}
+.uptBtn:hover{
+  background: #afddfa;
+    background-image: -webkit-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -moz-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -ms-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: -o-linear-gradient(top, #afddfa, #4fb3f5);
+    background-image: linear-gradient(to bottom, #afddfa, #4fb3f5);
+    text-decoration: none;
+}
+
+.btn-3 {
+  margin-left: 42%;
+  flex: 1 1 auto;
+  padding: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+border: solid black 2px;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+.btn-3:hover{
+    background-position: right center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #0099ff;
+}
+
+.courseDetailsContainer{
+  margin-top: 1.5%;
+
+  margin-left: auto;
+  margin-right: auto;
+   width: 50%;
+   border: 3px solid #e7e7e7;
+   padding-left: 5%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   border-radius: 13px;
+}
+.right{
+float: right;
+}
+.center{
+  text-align: center;
+
+}
+.myButton {
+	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+	background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+	background-color:#2e466e;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+	background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.buttonsContainer{
+  margin-top: 1%;
+
+  margin-left: auto;
+  margin-right: auto;
+   width: 25%;
+   padding-left: 2%;
+
+}
+.lTableContainer{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  border: solid #E8F8F5 2px;
+  padding: 1%;
+  border-radius: 13px;
+}
+.mTableContainer{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  border: solid #E8F8F5 2px;
+  padding: 1%;
+  border-radius: 13px;
+}
+.backButtonContainer{
+  margin: 1%;
+}
+.bckBtn:hover{
+  -webkit-filter: drop-shadow(2px 2px 2px #222 );
+    filter: drop-shadow(2px 2px 2px #222);
+}
+.homeBtn{
+  margin-left: 1%;
+  background: url("homeBtn.png") no-repeat center;
+  height: px;
+  width: 80px;
+
+}
+.sbtBtn{
+  margin-left: 5%;
+  position: absolute;
+  -moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+  -webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+  background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+  background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+  background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+  background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+  background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+  background-color:#2e466e;
+  -moz-border-radius:17px;
+  -webkit-border-radius:17px;
+  border-radius:17px;
+  border:1px solid #1f2f47;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:6px 13px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+}
+
+.sbtBtn:hover{
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+  background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+  background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+  background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+  background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+  background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+  background-color:#415989;
+}
+
+.meetingDetailsContainer{
+  margin-top: 1.5%;
+
+  margin-left: auto;
+  margin-right: auto;
+   width: 45%;
+   border: 3px solid #e7e7e7;
+   padding-top: 2%;
+   padding-bottom: 3%;
+   border-radius: 13px;
+
+}
+.alnStr{
+    text-align: center;
+}
+
+.cTableContainer{
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid #E8F8F5 2px;
+  padding: 2%;
+  border-radius: 13px;
+}
+#dlt-log{
+    background: url("delete-logo.png") no-repeat center;
+    width: 4%;
+}
+#dlt-log:hover{
+  background-color: 	#FA8072;
+}
+
+.srt_frm{
+  width: 55%;
+  margin-left: 20%;
+}
+
+.str_frm{
+  width: 55%;
+  margin-left: 14%;
+}
+.str_frm1{
+  width: 55%;
+  margin-left: 10%;
+}
+.buttonsContainer1{
+margin-left: 44%;
+margin-top: 1%;
+}
+
+table#responsiveTable {
+    border-collapse: collapse;
+}
+#responsiveTable tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#responsiveTable tr:hover {
+    background-color: #ccc;
+}
+#responsiveTable th {
+    background-color: #fff;
+}
+#responsiveTable th, #responsiveTable td {
+    padding: 3px 5px;
+}
+#responsiveTable td:hover {
+    cursor: pointer;
+}
